@@ -1,0 +1,90 @@
+.min,.medium,.max{
+    cursor:pointer;
+    height:30%;
+    width:30%;
+
+    border-radius:10px;
+}
+.min{
+    background-color: rgb(193, 255, 24);
+    font-size:15px;
+}
+.medium{
+    background-color:rgb(252, 119, 10);
+    font-size:20px;
+}
+.max{
+    background-color: orangered;
+    font-size:25px;
+}
+.rotatemin{
+    animation:rotation 2s;
+}
+.rotatemedium{
+    animation:rotation 1s;
+}
+.rotatemax{
+    animation:rotation 0.5s;
+}
+.linear{
+    animation-timing-function: linear;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+#image-fan-moving-1 {
+    width:80%;
+      height:80%;
+    margin: auto;
+    display:none;
+    
+}
+body {
+  font-family: 'Source Code Pro', monospace;
+background-color:white;
+    align-items: center;
+}
+#image-fan-moving-2 {
+    width:80%;
+      height:80%;
+    margin: auto;
+    display:none;
+    
+}
+#image-fan-moving-3 {
+    width:80%;
+    height:80%;
+    margin: auto;
+    display:none;
+    
+}
+@keyframes rotation{
+
+    from {
+        transform:rotate(0deg);
+
+    }to{
+        transform:rotate(360deg);
+    }
+
+}
+.text{
+    cursor:pointer;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+   
+    width: 250px;
+}
+.text:hover{
+    color:rgb(142, 142, 240);
+    text-decoration:underline;
+}.text2{
+    cursor:pointer;
+    font-family: 'Courier New', Courier, monospace;
+    
+    width: 250px;
+}
+.text2:hover{
+    color:rgb(150, 150, 255);
+    text-decoration:underline;
+}

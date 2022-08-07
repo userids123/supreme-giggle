@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Blower App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href='style.css'/>
+    <link rel="stylesheet" href='blower.css'/>
+    <style>
+     #play3{
+        height:50%;
+        width:70%;
+        padding-top:40%;
+     }
+    #image-fan{
+      width:80%;
+      height:80%;
+
+      
+    }
+     #img{
+        background-color:white;
+      width:70%; height:55%;
+        border-radius:30px;
+      margin-top:10%;
+
+        
+     }
+     h2{
+      margin-top:15%;
+     }
+  </style>
+
+</head>
+
+<body>
+    <center>
+      <h2>
+          The Blower App
+      </h2>
+      <div id="img">
+        <center>
+        <br>
+
+        <img id="image-fan" src="fan.png"/>
+        </center>
+      </div>
+     
+      <div>
+        
+       <img onclick="blow()" id="play3" src="Rectangle1.png"/>
+        
+      </div>
+    
+  
+  <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:5f9d35b3-bb78-4c7a-b786-bd0ee723f8e1"  target="_blank" class="text">
+ 
+  ℹ️ How this works ?
+
+  </a>
+</center>
+    <script src="blower.js"></script>
+</body>
+
+</html>
